@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>MBI</title>
+</head>
+
+<body>
+    <div class="table">
+        <h1 class="h1">Have you already asked yourself which is your BMI?</h1>
+        <hr>
+        <P class="apresentation">The body mass index (BMI) is a measure that uses your height and weight to work out if
+            your weight is healthy.
+
+            The BMI calculation divides an adult's weight in kilograms by their height in metres squared. For example, A
+            BMI of 25 means 25kg/m2.</P>
+    </div>
+    <hr>
+    <div class="tableTwo">
+        <div class="display">
+            <p class="leftBMI">BMI</p>
+            <p class="rightResult">RESULT</p>
+            <br>
+            <p class="left">Below 18.5</p>
+            <p class="right">You're in the underweight range</p>
+            <br>
+            <p class="leftTwo">Between 18.5 and 24.9</p>
+            <p class="rightTwo">You're in the healthy weight range</p>
+            <br>
+            <p class="leftThree">Between 25 and 29.9</p>
+            <p class="rightThree">You're in the overweight range</p>
+            <br>
+            <p class="leftFour">Between 30 and 39.9</p>
+            <p class="rightFour">You're in the obese range</p>
+        </div>
+    </div>
+    <div class="calculate">
+        <h2 class="apresentationTwo">Here you can to calculate the MBI</h2>
+        <!-- dividindo o peso (em kg) pela altura ao quadrado (em metros) -->
+        <!-- Por exemplo, uma pessoa com 1,70 m e 70 kg fará o seguinte cálculo:
+        Altura multiplicada por ela mesma: 1,70 x 1,70 = 2,89
+        Peso dividido pelo quadrado da altura: 70 / 2,89 = 24,22 -->
+        <div class="sidebyside">
+            <input class="weightClass" id="weight" type="number" placeholder="Put your weight:">
+            <br>
+            <input class="heightClass" id="height" type="number" placeholder="Put your height:">
+        </div>
+        <br>
+        <button class="button" id="button">To calculate</button>
+        <p id="answer" class="answerClass"></p>
+    </div>
+    <div class="baseboard">
+        <a class="facebook" href="https://www.facebook.com/LordVergil319/"><img  src="IMG/facebook.png" alt="" height="110px"></a>
+        <a class="instagram" href="https://www.instagram.com/leao_dr/"><img  src="IMG/instagram.png" alt="" height="70px"></a>
+        <a class="chp" href="https://en.wikipedia.org/wiki/California_Highway_Patrol"><img  src="IMG/CHP.png" alt="" height="70px"></a>
+        <p class="text">This project was developed by Victor</p>
+    </div>
+
+    <script src="JS/app.js"></script>
+</body>
+
+</html>

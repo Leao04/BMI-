@@ -1,0 +1,441 @@
+body {
+    margin: 0%;
+    background-image: url("https://cdn.99images.com/photos/wallpapers/sports/nike-girlandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-uk5y7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.table {
+    margin-left: 170px;
+    max-width: 1000px;
+    padding: 10px;
+    box-shadow: 0 0px 100px rgba(218, 27, 27, 0.26);
+    border-radius: 40px;
+}
+
+.h1 {
+    color: black;
+    padding-left: 120px;
+}
+
+.apresentation {
+    color: black;
+    font-size: 25px;
+}
+
+.tableTwo {
+    margin: 3rem auto;
+    max-width: 1000px;
+    padding: 10px;
+    box-shadow: 0 0px 100px rgba(248, 244, 5, 0.26);
+    border-radius: 300px;
+}
+
+.display {
+    font-family: fantasy;
+    color: black;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.leftBMI {
+    grid-column-start: 1;
+    padding-left: 150px;
+    font-size: 30px;
+}
+
+.rightResult {
+    grid-column-start: 2;
+    padding-left: 200px;
+    font-size: 30px;
+}
+
+.left {
+    grid-column-start: 1;
+    padding-left: 150px;
+}
+
+.right {
+    grid-column-start: 2;
+    padding-left: 200px;
+
+}
+
+.leftTwo {
+    grid-column-start: 1;
+    padding-left: 150px;
+}
+
+.rightTwo {
+    grid-column-start: 2;
+    padding-left: 200px;
+}
+
+.leftThree {
+    grid-column-start: 1;
+    padding-left: 150px;
+}
+
+.rightThree {
+    grid-column-start: 2;
+    padding-left: 200px;
+}
+
+.leftFour {
+    grid-column-start: 1;
+    padding-left: 150px;
+}
+
+.rightFour {
+    grid-column-start: 2;
+    padding-left: 200px;
+}
+
+.apresentationTwo {
+    padding-left: 500px;
+    color: black;
+}
+
+.weightClass {
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 560px;
+}
+
+.heightClass {
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 560px;
+}
+
+.sidebyside {
+    display: grid;
+}
+
+.button {
+    margin-left: 600px;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #d15710 0, #c7a01f 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 70px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.button:focus {
+    box-shadow: #ec3d08 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #ff6308 0 -3px 0 inset;
+}
+
+.button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #f17909 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    box-shadow: #a8370a 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.answerClass {
+    color: black;
+    font-size: 25px;
+    padding-left: 470px;
+    text-shadow: 1px 1px red;
+}
+
+.baseboard {
+    background-color: black;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.facebook {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-top: 30px;
+    padding-left: 470px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.instagram {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: 50px;
+    padding-left: 630px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.chp {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-top: 50px;
+    padding-left: 780px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.text {
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 520px;
+    font-size: 20px;
+}
+
+    ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:  purple;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 1080px) {
+    body { 
+        background-image: url(https://cdn.99images.com/photos/wallpapers/sports/nike-girlandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-uk5y7.jpg); 
+        background-repeat: no-repeat; 
+        background-position: center;
+        background-attachment: fixed;       
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    }   
+    .table {
+        margin-left: 0px;
+        max-width: 1000px;
+        padding: 10px;
+        box-shadow: 0 0px 10px rgba(218, 27, 27, 0.26);
+        border-radius: 80px;
+    }
+
+    .h1 {
+        color: black;
+        padding-left: 70px;
+    }
+
+    .apresentation {
+        color: black;
+        font-size: 15px;
+        padding-left: 13px;
+    }
+    
+    .tableTwo {
+        margin: 3rem auto;
+        max-width: 1000px;
+        padding: 10px;
+        box-shadow: 0 0px 1000px rgba(248, 244, 5, 0.26);
+        border-radius: 10px;
+    }
+    
+    .display {
+        font-family: fantasy;
+        color: black;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1;
+        font-size: 20px;
+    }
+
+    .leftBMI {
+        grid-column-start: 1;
+        padding-left: 10px;
+        font-size: 25px;
+    }
+    
+    .rightResult {
+        grid-column-start: 2;
+        padding-left: 70px;
+        font-size: 25px;
+    }
+    
+    .left {
+        grid-column-start: 1;
+        padding-left: 10px;
+    }
+    
+    .right {
+        grid-column-start: 2;
+        padding-left: 70px;
+    
+    }
+    
+    .leftTwo {
+        grid-column-start: 1;
+        padding-left: 10px;
+    }
+    
+    .rightTwo {
+        grid-column-start: 2;
+        padding-left: 70px;
+    }
+    
+    .leftThree {
+        grid-column-start: 1;
+        padding-left: 10px;
+    }
+    
+    .rightThree {
+        grid-column-start: 2;
+        padding-left: 70px;
+    }
+    
+    .leftFour {
+        grid-column-start: 1;
+        padding-left: 10px;
+    }
+    
+    .rightFour {
+        grid-column-start: 2;
+        padding-left: 70px;
+    }
+
+    .apresentationTwo {
+        padding-left: 5px;
+        color: black;
+    }
+    
+    .weightClass {
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        margin-left: 80px;
+    }
+    
+    .heightClass {
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        margin-left: 80px;
+    }
+    
+    .sidebyside {
+        display: grid;
+    }
+    
+    .button {
+        margin-left: 120px;
+        align-items: center;
+        appearance: none;
+        background-image: radial-gradient(100% 100% at 100% 0, #d15710 0, #c7a01f 100%);
+        border: 0;
+        border-radius: 6px;
+        box-shadow: rgba(45, 35, 66, .4) 0 2px 70px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+        box-sizing: border-box;
+        color: black;
+        cursor: pointer;
+        display: inline-flex;
+        height: 48px;
+        justify-content: center;
+        line-height: 1;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 16px;
+        padding-right: 16px;
+        position: relative;
+        text-align: left;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        font-size: 18px;
+    }
+    
+    .button:focus {
+        box-shadow: #ec3d08 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #ff6308 0 -3px 0 inset;
+    }
+    
+    .button:hover {
+        box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #f17909 0 -3px 0 inset;
+        transform: translateY(-2px);
+    }
+    
+    .button:active {
+        box-shadow: #a8370a 0 3px 7px inset;
+        transform: translateY(2px);
+    }
+    
+    .answerClass {
+        color: black;
+        font-size: 25px;
+        padding-left: 40px;
+        text-shadow: 1px 1px red;
+    }
+    
+    .baseboard {
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        grid-template-rows: repeat(1, 2fr);
+    }
+    
+    .facebook {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-top: 30px;
+        padding-left: 30px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .instagram {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding-top: 50px;
+        padding-left: 140px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .chp {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-top: 50px;
+        padding-left: 240px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .text {
+        color: white;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    
+ }

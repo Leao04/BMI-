@@ -11,28 +11,52 @@ function getValue() {
   const betweenthree = 25;
   const betweenfour = 29.9;
   const betweenfive = 30;
-  const betweensix =  39.9;
+  const betweensix = 39.9;
   const betweenseven = 40;
-  const valueFinal =
-    parseFloat(weight) / (parseInt(height) * parseInt(height));
-    if (weight.length == 0) {
-        document.getElementById("answer").innerHTML = "You need to inform us about the weight"
-    } else if (weight.length == 1 || weight.length == 0) {
-        document.getElementById("answer").innerHTML = "You need to inform us about the height"
-    } else if (weight.length == 0 || height.length == 1) {
-        document.getElementById("answer").innerHTML = "You need to inform us about the weight"
-    }
-    if (valueFinal.toFixed(4) * 10000 <= 18.5) {
-        document.getElementById("answer").innerHTML = valueFinal.toFixed(4) * 10000 + " - You're in the underweight range"
-    } if (valueFinal.toFixed(4) * 10000 > between && valueFinal.toFixed(4) * 10000 < betweentwo ) {
-        document.getElementById("answer").innerHTML = valueFinal.toFixed(4) * 10000 +  " - You're in the healthy weight range"
-    } if (valueFinal.toFixed(4) * 10000 > betweenthree && valueFinal.toFixed(4) * 10000 < betweenfour) {
-        document.getElementById("answer").innerHTML = valueFinal.toFixed(4) * 10000 + " - You're in the overweight range"
-    } if (valueFinal.toFixed(4) * 10000 > betweenfive && valueFinal.toFixed(4) * 10000 < betweensix) {
-        document.getElementById("answer").innerHTML = valueFinal.toFixed(4) * 10000 + " - You're in the obese range"
-    } if (valueFinal.toFixed(4) * 10000 >= betweenseven) {
-        document.getElementById("answer").innerHTML = valueFinal.toFixed(4) * 10000 + " - You're in the obese range"
-    }
+  const valueFinal = parseFloat(weight) / (parseInt(height) * parseInt(height));
+  if (weight.length == 0) {
+    document.getElementById("answer").innerHTML =
+      "You need to inform us about the weight";
+  } else if (weight.length == 1 || weight.length == 0) {
+    document.getElementById("answer").innerHTML =
+      "You need to inform us about the height";
+  } else if (weight.length == 0 || height.length == 1) {
+    document.getElementById("answer").innerHTML =
+      "You need to inform us about the weight";
+  }
+  if (valueFinal.toFixed(4) * 10000 <= 18.5) {
+    document.getElementById("answer").innerHTML =
+      valueFinal.toFixed(4) * 10000 + " - You're in the underweight range";
+  }
+  if (
+    valueFinal.toFixed(4) * 10000 > between &&
+    valueFinal.toFixed(4) * 10000 < betweentwo
+  ) {
+    document.getElementById("answer").innerHTML =
+      valueFinal.toFixed(4) * 10000 + " - You're in the healthy weight range";
+  }
+  if (
+    valueFinal.toFixed(4) * 10000 > betweenthree &&
+    valueFinal.toFixed(4) * 10000 < betweenfour
+  ) {
+    document.getElementById("answer").innerHTML =
+      valueFinal.toFixed(4) * 10000 + " - You're in the overweight range";
+  }
+  if (
+    valueFinal.toFixed(4) * 10000 > betweenfive &&
+    valueFinal.toFixed(4) * 10000 < betweensix
+  ) {
+    document.getElementById("answer").innerHTML =
+      valueFinal.toFixed(4) * 10000 + " - You're in the obese range";
+  }
+  if (valueFinal.toFixed(4) * 10000 >= betweenseven) {
+    document.getElementById("answer").innerHTML =
+      valueFinal.toFixed(4) * 10000 + " - You're in the obese range";
+  }
+  if (valueFinal.toFixed(4) * 10000 == betweenthree) {
+    document.getElementById("answer").innerHTML =
+      valueFinal.toFixed(4) * 10000 + " - You're in the overweight range";
+  }
   console.log(valueFinal);
 }
 
